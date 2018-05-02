@@ -31,7 +31,7 @@ a:hover {
 }
 
 .container {
-  width: 500px;
+  width: 90%;
   margin: 30px auto;
 }
 
@@ -75,9 +75,11 @@ a:hover {
 .img-circle {
   border-radius: 50%;
 }
+
 .text-center {
   text-align: center;
 }
+
 .card-white {
   background: white;
   padding: 30px;
@@ -91,10 +93,10 @@ a:hover {
   padding: 10px;
   border-radius: 6px;
 }
+
 .list-inline {
   padding-left: 0;
 }
-
 .list-inline li {
   display: inline-block;
   padding: 30px;
@@ -110,4 +112,32 @@ a:hover {
 }
 #movies img {
   width: 80px;
+}
+
+#sidebar {
+  background-color: #3d4a5054;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 110px;
+  text-align: center;
+}
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #788188;
+}
+#sidebar li {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#page-content {
+  margin-left: 120px;
 }

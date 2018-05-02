@@ -7,88 +7,96 @@
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 </head>
 <body>
-
-  <div class="container">
-    <div class="card text-center">
-      <img src="images/me.jpeg" alt="Tony Xing" width=150 id="img-profile" class="img-circle">
-      <h1>Tony Xing</h1>
-      <h2>Programmer</h2>
-      <p>Chilling and attending a coding bootcamp in Berlin</p>
-      <a href="https://lewagon.com" class="btn-blue">See for yourself</a>
-    </div>
-    <div class="card text-center">
-      <ul class="list-inline">
-        <li class="text-center">
-          <a href="https://www.facebook.com/tony.xing.5">
-            <i class="fa fa-facebook"></i> <br>Facebook
-          </a>
-        </li>
-        <li class="text-center">
-          <a href="https://www.linkedin.com/in/tony-xing-24a84bb5/">
-            <i class="fa fa-linkedin"></i> <br>Linkedin
-          </a>
-        </li>
-        <li class="text-center">
-          <a href="https://github.com/tonyxingabc">
-            <i class="fa fa-github"></i> <br>Github
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="card text-center">
-    <h2>My favourite movies:</h2>
-      <table id="movies">
-        <tbody>
-          <tr>
-            <td>
-              <img src="images/inception.jpeg" alt="inception">
-            </td>
-            <td>
-              <h3>Inception</h3>
-              <p>Action · A thief, who steals corporate secrets through the use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <img src="images/shutter_island.jpeg" alt="shutter island">
-            </td>
-            <td>
-              <h3>Shutter island</h3>
-              <p>Mystery · In 1954, a U.S. Marshal investigates the disappearance of a murderer, who escaped from a hospital for the criminally insane.</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <img src="images/coherance.jpeg" alt="coherance">
-            </td>
-            <td>
-              <h3>Coherence</h3>
-              <p>Mystery · Strange things begin to happen when a group of friends gather for a dinner party on an evening when a comet is passing overhead.</p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="card text-center">
-      <h2>About this page</h2>
-      This page has been coded during the <a href="https://lewagon.com/program" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
-      <ul class="list-inline">
-       <li>
-         <a href="#">
-           <i class="fa fa-heart"></i>
-         </a>
-       </li>
-       <li>
-         <a href="#">
-           <i class="fa fa-share"></i>
-         </a>
-       </li>
-       <li>
-         <a href="#">
-           <i class="fa fa-star"></i>
-         </a>
-       </li>
-      </ul>
+  <div id="sidebar">
+    <ul>
+      <li><a href="#summary"><i class="fa fa-info-circle"></i></a></li>
+      <li><a href="#favorite-movies"><i class="fa fa-file-video-o"></i></a></li>
+      <li><a href="#footer"><i class="fa fa-life-ring"></i></a></li>
+    </ul>
+  </div>
+  <div id="page-content">
+    <div class="container">
+      <div class="card text-center" id="summary">
+        <img src="images/me.jpeg" alt="Tony Xing" width=150 id="img-profile" class="img-circle">
+        <h1>Tony Xing</h1>
+        <h2>Programmer</h2>
+        <p>Chilling and attending a coding bootcamp in Berlin</p>
+        <a href="https://lewagon.com" class="btn-blue">See for yourself</a>
+      </div>
+      <div class="card text-center">
+        <ul class="list-inline">
+          <li class="text-center">
+            <a href="https://www.facebook.com/tony.xing.5">
+              <i class="fa fa-facebook"></i> <br>Facebook
+            </a>
+          </li>
+          <li class="text-center">
+            <a href="https://www.linkedin.com/in/tony-xing-24a84bb5/">
+              <i class="fa fa-linkedin"></i> <br>Linkedin
+            </a>
+          </li>
+          <li class="text-center">
+            <a href="https://github.com/tonyxingabc">
+              <i class="fa fa-github"></i> <br>Github
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="card text-center" id="favorite-movies">
+        <h2>My favourite movies:</h2>
+        <table id="movies">
+          <tbody>
+            <tr>
+              <td>
+                <img src="images/inception.jpeg" alt="inception">
+              </td>
+              <td>
+                <h3>Inception</h3>
+                <p>Action · A thief, who steals corporate secrets through the use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="images/shutter_island.jpeg" alt="shutter island">
+              </td>
+              <td>
+                <h3>Shutter island</h3>
+                <p>Mystery · In 1954, a U.S. Marshal investigates the disappearance of a murderer, who escaped from a hospital for the criminally insane.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="images/coherance.jpeg" alt="coherance">
+              </td>
+              <td>
+                <h3>Coherence</h3>
+                <p>Mystery · Strange things begin to happen when a group of friends gather for a dinner party on an evening when a comet is passing overhead.</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card text-center" id="footer">
+        <h2>About this page</h2>
+        This page has been coded during the <a href="https://lewagon.com/program" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
+        <ul class="list-inline">
+         <li>
+           <a href="#">
+             <i class="fa fa-heart"></i>
+           </a>
+         </li>
+         <li>
+           <a href="#">
+             <i class="fa fa-share"></i>
+           </a>
+         </li>
+         <li>
+           <a href="#">
+             <i class="fa fa-star"></i>
+           </a>
+         </li>
+        </ul>
+      </div>
     </div>
   </div>
 </body>
